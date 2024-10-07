@@ -1,0 +1,32 @@
+.header {
+    background-size: cover;
+    background-image: url(../../images/header/head.jpg);
+}
+
+&__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 36px 0px 64px;
+    height: 100vh;
+}
+
+&__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+&__top-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+    align-items: center;
+    
+}
+
+&__text {
+    color: #fff;
+    font-size: 56px;
+}
