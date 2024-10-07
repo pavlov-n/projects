@@ -1,7 +1,7 @@
 .header {
     background-size: cover;
     background-position: center;
-    background-image: url(../../images/header/head.jpg);
+    background-image: url("../../images/header/head.jpg");
 
 
     &__content {
@@ -9,7 +9,7 @@
         flex-direction: column;
         justify-content: space-between;
         box-sizing: border-box;
-        padding: 36px 0px 64px;
+        padding: 36px 0 64px;
         height: 100vh;
     }
 
@@ -27,7 +27,7 @@
         
     }
 
-    &__text {
+    &__title {
         color: #fff;
         font-size: 56px;
     }
