@@ -1,0 +1,48 @@
+.menu {
+    background-color: #f9f9f9;
+
+    &__content {
+        padding: 36px 0 272px;
+        height: 100vh;
+    }
+
+    &__list {
+        margin-top: 92px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        font-size: 22px;
+    }
+
+    &__link {
+        color: #1B2129;
+        text-decoration: none;
+    }
+
+    &__item {
+        margin-bottom: 32px;
+    }
+
+    &__call {
+        display: block;
+        color:#1B2129;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        letter-spacing: 2px;
+        text-align: left;
+        text-decoration: none;
+        width: max-content;
+
+        &--phone {
+            font-size: 16px;
+        }
+
+        &--action {
+            padding-bottom: 2px;
+            border-bottom: 1px solid;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.icon {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+
+    &--menu {
+        background-image: url(../../images/header/Icon-Burger-menu.png);
+    }
+
+    &--phone {
+        background-image: url(../../images/header/Icon-Phone-call.png);
+    }
+
+    &--cross {
+        background-image: url(../../images/Icon-Close.png);
+    }
+}
